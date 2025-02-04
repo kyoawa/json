@@ -1,0 +1,458 @@
+{
+ "currentVersion": 11.3,
+ "cimVersion": "3.3.0",
+ "id": 3,
+ "name": "Incorporated Cities and Towns",
+ "type": "Feature Layer",
+ "description": "Montana Incorporated Cities and Towns",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857,
+  "xyTolerance": 0.001,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -20037700,
+  "falseY": -30241100,
+  "xyUnits": 10000,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "referenceScale": 0.0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     168,
+     112,
+     0,
+     75
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      115,
+      76,
+      0,
+      255
+     ],
+     "width": 0.7
+    }
+   }
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": -1.2902844285799999E7,
+  "ymin": 5563614.0293999985,
+  "xmax": -1.1581851772300001E7,
+  "ymax": 6258799.911300003,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857,
+   "xyTolerance": 0.001,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -20037700,
+   "falseY": -30241100,
+   "xyUnits": 10000,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "NAME",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "NAME",
+   "type": "esriFieldTypeString",
+   "alias": "Name",
+   "length": 35,
+   "domain": null
+  },
+  {
+   "name": "COUNTY",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "County",
+   "domain": null
+  },
+  {
+   "name": "METADATA",
+   "type": "esriFieldTypeString",
+   "alias": "Metadata",
+   "length": 35,
+   "domain": null
+  },
+  {
+   "name": "FIPS_CODE",
+   "type": "esriFieldTypeDouble",
+   "alias": "FIPS CODE",
+   "domain": null
+  },
+  {
+   "name": "LAST_UPDATE",
+   "type": "esriFieldTypeDate",
+   "alias": "Date Last Updated",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "ENTITY_ID",
+   "type": "esriFieldTypeString",
+   "alias": "ENTITY IDENTIFIER",
+   "length": 25,
+   "domain": null
+  },
+  {
+   "name": "DATASET_ID",
+   "type": "esriFieldTypeString",
+   "alias": "DATASET IDENTIFIER",
+   "length": 3,
+   "domain": null
+  },
+  {
+   "name": "PKEY",
+   "type": "esriFieldTypeString",
+   "alias": "MONTANA PKEY - UNIQUE PERSISTANT IDENTIFIER",
+   "length": 68,
+   "domain": null
+  },
+  {
+   "name": "CLASS",
+   "type": "esriFieldTypeString",
+   "alias": "CLASS",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "length": 30,
+   "domain": null
+  },
+  {
+   "name": "YEAR",
+   "type": "esriFieldTypeDouble",
+   "alias": "Year Incorporated",
+   "domain": null
+  },
+  {
+   "name": "Acres",
+   "type": "esriFieldTypeDouble",
+   "alias": "Acres",
+   "domain": null
+  },
+  {
+   "name": "SqMiles",
+   "type": "esriFieldTypeDouble",
+   "alias": "Square Miles",
+   "domain": null
+  },
+  {
+   "name": "BAS_ID",
+   "type": "esriFieldTypeString",
+   "alias": "BAS_ID",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "ID_UK",
+   "type": "esriFieldTypeString",
+   "alias": "ID_UK",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "City_Town",
+   "type": "esriFieldTypeString",
+   "alias": "SOS City/Town District Name",
+   "length": 75,
+   "domain": null
+  },
+  {
+   "name": "DistrictCode",
+   "type": "esriFieldTypeString",
+   "alias": "SOS District Code",
+   "length": 15,
+   "domain": null
+  },
+  {
+   "name": "COUNTYNAME",
+   "type": "esriFieldTypeString",
+   "alias": "County Name",
+   "length": 32,
+   "domain": null
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Length",
+   "domain": null
+  },
+  {
+   "name": "Shape_Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Area",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "Shape_INDEX",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_NAME",
+   "fields": "NAME",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_COUNTY",
+   "fields": "COUNTY",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_METADATA",
+   "fields": "METADATA",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_FIPS_CODE",
+   "fields": "FIPS_CODE",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_LAST_UPDATE",
+   "fields": "LAST_UPDATE",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_ENTITY_ID",
+   "fields": "ENTITY_ID",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_DATASET_ID",
+   "fields": "DATASET_ID",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_PKEY",
+   "fields": "PKEY",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_CLASS",
+   "fields": "CLASS",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_TYPE",
+   "fields": "TYPE",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_YEAR",
+   "fields": "YEAR",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_Acres",
+   "fields": "Acres",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_SqMiles",
+   "fields": "SqMiles",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_BAS_ID",
+   "fields": "BAS_ID",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_ID_UK",
+   "fields": "ID_UK",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_City_Town",
+   "fields": "City_Town",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_DistrictCode",
+   "fields": "DistrictCode",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  },
+  {
+   "name": "IDX_COUNTYNAME",
+   "fields": "COUNTYNAME",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [
+  {
+   "id": 1,
+   "name": "Municipalities",
+   "relatedTableId": 23,
+   "role": "esriRelRoleOrigin",
+   "keyField": "BAS_ID",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false,
+   "catalogID": "{393715C0-06C7-4F1E-8207-451F4C0080A6}"
+  }
+ ],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "supportsStatistics": true,
+ "supportsExceedsLimitStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "supportedSpatialRelationships": [
+  "esriSpatialRelIntersects",
+  "esriSpatialRelContains",
+  "esriSpatialRelCrosses",
+  "esriSpatialRelEnvelopeIntersects",
+  "esriSpatialRelIndexIntersects",
+  "esriSpatialRelOverlaps",
+  "esriSpatialRelTouches",
+  "esriSpatialRelWithin",
+  "esriSpatialRelRelation"
+ ],
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsPercentileStatistics": true,
+  "supportsHavingClause": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsCountDistinct": true,
+  "supportsAdvancedQueryRelated": true,
+  "supportsQueryRelatedPagination": true,
+  "supportsPagination": true,
+  "supportsLod": false,
+  "supportsQueryWithLodSR": false,
+  "supportsTrueCurve": true,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true,
+  "supportsTimeRelation": true,
+  "supportsSqlFormat": false,
+  "supportsQueryAnalytic": false,
+  "supportsCurrentUserQueries": true
+ },
+ "supportsDatumTransformation": true,
+ "dateFieldsTimeReference": null,
+ "preferredTimeReference": null,
+ "datesInUnknownTimezone": false,
+ "hasGeometryProperties": true,
+ "geometryProperties": {
+  "shapeAreaFieldName": "Shape_Area",
+  "shapeLengthFieldName": "Shape_Length",
+  "units": "esriMeters",
+  "mapUnits": {"uwkid": 9001}
+ },
+ "hasMetadata": true,
+ "isDataArchived": false,
+ "archivingInfo": {
+  "supportsQueryWithHistoricMoment": false,
+  "startArchivingMoment": -1
+ },
+ "supportsCoordinatesQuantization": true,
+ "supportsDynamicLegends": true
+}
